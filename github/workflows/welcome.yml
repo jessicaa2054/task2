@@ -3,6 +3,9 @@ name: Welcome New Contributor
 on:
   pull_request:
     types: [opened]
+  issues:
+    types: [opened]
+
 
 permissions:
   pull-requests: write
